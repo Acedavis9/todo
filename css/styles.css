@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'OmoriGame';
+    src: url('../fonts/OMORI_GAME2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+body {
+    background-color: #d3a4d8;
+    font-size: 1.25rem;
+    font-family: 'OmoriGame', sans-serif;
+    color:white
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .form-label, .form-select, .form-control {
+    font-size: 1.5rem; /* Adjust form element font size */
+}
+
+.btn {
+    font-size: 2.1rem; /* Increase button text size */
+}
